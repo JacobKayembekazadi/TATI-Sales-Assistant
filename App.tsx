@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { analyzeInquiry } from './services/geminiService';
+import { analyzeInquiry } from './services/openaiService';
 import { AnalysisResult, AppStatus, FileData } from './types';
 import { COMPANY_INFO, LOADING_MESSAGES } from './constants';
 import AnalysisDisplay from './components/AnalysisDisplay';
